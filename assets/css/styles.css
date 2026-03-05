@@ -1,0 +1,359 @@
+/* MEDIA QUERY */
+@media (max-width: 576px) {
+  .setting {
+    display: none;
+  }
+  .title {
+    display: flex;
+    width: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .singleCarousel {
+    margin-bottom: 3em !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .swiper-button-next::before {
+    width: 30% !important;
+  }
+}
+
+@media (max-width: 768px) {
+  footer .container .row.row-cols-1.row-cols-lg-4,
+  footer .container,
+  footer .container .row.row-cols-1.row-cols-lg-4 > * {
+    display: flex !important;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  footer .container .row.row-cols-1.row-cols-lg-4 {
+    gap: 3em;
+  }
+}
+
+/* CUSTOM CSS */
+
+::selection {
+  background-color: #e50914;
+  color: white;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.containter-fluid,
+.navbar-brand {
+  background-color: none !important;
+}
+
+/* START DOCUMENT STYLE */
+body {
+  background-color: #141414;
+  overflow-x: hidden;
+  color: white;
+}
+
+header {
+  position: relative;
+  z-index: 3000;
+}
+
+main {
+  margin-top: 1em;
+}
+
+/* END DOCUMENT STYLE */
+
+/* START NAVBAR STYLE */
+
+.container-fluid {
+  padding: 0 2em;
+}
+
+.container-fluid.main {
+  padding: 0;
+}
+
+.bi-list {
+  color: white;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar.navbar-expand-lg {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.004) !important;
+  backdrop-filter: blur(8.5px) !important;
+  -webkit-backdrop-filter: blur(8.5px) !important;
+}
+
+.navbar-brand img {
+  width: 7rem;
+  height: auto;
+}
+
+.rightElementNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1em;
+}
+
+.rightElementNav > * {
+  cursor: pointer;
+}
+
+.proPicButton:hover,
+.proPicButton:active,
+.proPicButton:focus,
+.btn.show {
+  background: none !important;
+}
+
+.profilePic img {
+  width: 2rem;
+  height: auto;
+}
+
+.proPicButton {
+  background: none;
+  border: none;
+}
+
+.dropdown-toggle.proPicButton,
+.nav-link.active {
+  color: rgb(255, 255, 255) !important;
+}
+
+.dropdown-toggle.proPicButton,
+.nav-link.active::after:active {
+  transform: rotate(35deg);
+}
+
+.nav-link {
+  color: rgb(193, 193, 193);
+}
+
+.nav-link:hover,
+.navlink:active,
+.nav-link:focus {
+  color: white;
+}
+
+.selectProfile {
+  padding: 0;
+}
+
+.selectProfile button {
+  display: flex;
+  align-items: center;
+  gap: 0 0.7em;
+  padding: 1em 1em;
+}
+
+.selectProfile p {
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.selectProfile li:first-child p:nth-child(2) {
+  font-size: 0.8em;
+  color: rgb(159, 159, 159);
+}
+
+.selectProfile button:focus {
+  background: none;
+  color: #141414;
+}
+
+/* END NAVBAR STYLE */
+
+/* START MAIN STYLE */
+
+/* TV SHOWS and Button */
+.titleAndSetting {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.title {
+  width: 30%;
+}
+
+.containerLeft .row .col {
+  display: inline !important;
+}
+
+.title h1 {
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.btn-group.col-auto .btn-secondary {
+  background-color: black;
+  border-radius: 0;
+}
+
+.btn-group.col-auto .btn-secondary .dropdown-item {
+  background-color: white !important;
+}
+
+.setting button {
+  border-radius: 0;
+  background-color: black;
+  border-color: white;
+}
+
+.setting button:hover {
+  background-color: #141414;
+  border-color: white;
+}
+
+.btn-primary {
+  --bs-btn-active-bg: #141414;
+  --bs-btn-active-border-color: white;
+}
+
+/* Carousel Style */
+
+.singleCarousel {
+  width: 100%;
+  height: auto;
+  margin: 2em 0;
+  margin-bottom: 5em;
+}
+
+.singleCarousel h3 {
+  padding-left: 1.2em;
+}
+
+.swiper {
+  width: 100%;
+  height: auto !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition:
+    transform 0.4s ease-in-out,
+    box-shadow 0.1s ease-in-out;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide:hover {
+  z-index: 1;
+  box-shadow: 0px -1px 30px 2px rgba(0, 0, 0, 0.61);
+  transform: scale(1.2);
+}
+
+.swiper:hover {
+  overflow: visible;
+}
+
+.append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.swiper-navigation-icon {
+  z-index: 2 !important;
+}
+
+.swiper-navigation-icon {
+  color: lightgray;
+  z-index: 2 !important;
+  width: 1em !important;
+  height: auto !important;
+  opacity: 0 !important;
+  transition: opacity 0.2s ease;
+  z-index: 1;
+}
+
+.mySwiper:hover .swiper-navigation-icon {
+  opacity: 1 !important;
+}
+
+.firstPaddingStart {
+  padding-left: 2em !important;
+}
+
+.swiper-button-next::before {
+  opacity: 1 !important;
+  content: "";
+  width: 230%;
+  height: 500%;
+  position: absolute;
+  z-index: 0;
+  background-color: #141414e4;
+}
+
+/* END MAIN STYLE */
+
+/* START FOOTER STYLE */
+
+.socialContainer {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1.5em;
+}
+
+.footerCol a,
+.footerCol a:visited,
+footer {
+  color: #646562;
+  text-decoration: none;
+}
+
+.footerCol a:hover {
+  color: #929391;
+}
+
+.footerCol {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.fa-brands {
+  color: #646562;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.fa-brands:hover {
+  color: #929391;
+}
+
+.serviceButton .btn {
+  margin-top: 1.5em;
+  border-radius: 0;
+}
+
+.copy {
+  margin-top: 1.5em;
+  margin-bottom: 10em;
+  font-size: 0.7rem;
+}
