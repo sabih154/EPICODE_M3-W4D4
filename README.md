@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/EmanWeBdV/EPICODE_M3-W4">
+  <a href="https://github.com/EmanWeBdV/EPICODE_M3-W4D4">
     <img src="https://img.shields.io/badge/status-learning--project-red?style=for-the-badge" alt="Status">
   </a>
   <a href="https://github.com/EmanWeBdV/EPICODE_M3-W4D4/issues">
