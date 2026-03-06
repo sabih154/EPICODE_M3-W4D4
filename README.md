@@ -29,9 +29,9 @@
   ·
   <a href="#-demo">Demo</a>
   ·
-  <a href="https://github.com/EmanWeBdV/EPICODE_M3-W4D4/issues">Segnala un bug</a>
+  <a href="https://github.com/EmanWeBdV/EPICODE_M3-W4D4/issues">Report a bug</a>
   ·
-  <a href="https://github.com/EmanWeBdV/EPICODE_M3-W4D4/issues">Richiedi una feature</a>
+  <a href="https://github.com/EmanWeBdV/EPICODE_M3-W4D4/issues">Request a feature</a>
 </p>
 
 ---
