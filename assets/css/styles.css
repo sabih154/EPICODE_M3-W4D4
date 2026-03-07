@@ -14,12 +14,6 @@
   }
 }
 
-@media (max-width: 1200px) {
-  .swiper-button-next::before {
-    width: 30% !important;
-  }
-}
-
 @media (max-width: 768px) {
   footer .container .row.row-cols-1.row-cols-lg-4,
   footer .container,
@@ -300,15 +294,6 @@ main {
   padding-left: 2em !important;
 }
 
-.swiper-button-next::before {
-  opacity: 1 !important;
-  content: "";
-  width: 230%;
-  height: 500%;
-  position: absolute;
-  z-index: 0;
-  background-color: #141414e4;
-}
 
 /* END MAIN STYLE */
 
